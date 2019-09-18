@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Hello</title>
+</head>
+<body>
+	<form method="POST" action="ActionSelection">
+		<div class="job">職業：
+			<span class="job_selected" value= "$job">職業(仮)</span>
+		</div>
+		<div class="job">名前：
+			<span class="name" value= "$name">名前(仮)</span>
+		</div>
+		<input type="submit" value="たたかう" />
+	</form>
+</body>
+</html>
